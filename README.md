@@ -51,7 +51,7 @@ A SHIP is the average of multiple HIPs:
 
 As a visual example:
 
-![example hip and ship][assets/hipships.png]
+![example hip and ship](assets/hipships.png)
 
 ## Dependencies:
 
