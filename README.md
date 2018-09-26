@@ -1,6 +1,7 @@
 # harmonicintervalprofile
 
 Python library for computing (shared) harmonic interval profiles from chord labels.
+
 This library is functional, but in its infancy. 
 
 ## Example use:
