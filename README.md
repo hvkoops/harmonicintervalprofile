@@ -1,6 +1,7 @@
 # harmonicintervalprofile
 
-Python library for computing (shared) harmonic interval profiles from chord labels
+Python library for computing (shared) harmonic interval profiles from chord labels.
+This library is functional, but in its infancy. 
 
 ## Example use:
 
@@ -47,6 +48,10 @@ A SHIP is the average of multiple HIPs:
        0. , 0. , 1. , 0. , 0. , 0. , 1. , 0.6, 0. , 0. , 0. , 0.4, 0. ,
        0. , 0. , 0. , 0. , 0. , 0. , 0. ])
 ```
+
+As a visual example:
+
+![example hip and ship][assets/hipships.png]
 
 ## Dependencies:
 
