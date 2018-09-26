@@ -69,8 +69,8 @@ A SHIP is the average of multiple HIPs:
 * `re`
 
 ## See also:
-https://github.com/hvkoops/chordlabelpersonalization
-http://www.github.com/chordify/casd
+* https://github.com/hvkoops/chordlabelpersonalization
+* http://www.github.com/chordify/casd
 
 If you use ```harmonicintervalprofile``` in a research project, please cite the following paper:
 
