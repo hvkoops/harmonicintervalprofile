@@ -68,6 +68,10 @@ A SHIP is the average of multiple HIPs:
 * `numpy`
 * `re`
 
+## See also:
+https://github.com/hvkoops/chordlabelpersonalization
+http://www.github.com/chordify/casd
+
 If you use ```harmonicintervalprofile``` in a research project, please cite the following paper:
 
 Koops, H.V., de Haas, W.B., Bransen, J. et al. "Automatic chord label personalization through deep learning of shared harmonic interval profiles" Neural Computing & Applications Springer 2018 https://doi.org/10.1007/s00521-018-3703-y 
