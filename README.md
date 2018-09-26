@@ -8,17 +8,8 @@ Compute a Harmonic Interval Profile (HIP) from a chord label:
 
 ```python 
 import harmonicintervalprofile as hip 
-```
-
-```python 
 >>> label_hip = hip.label_to_hip('Eb:maj/3')
-```
-
-```python 
 >>> label_hip
-```
-
-```python 
 array([0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
        1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
        0, 0])
@@ -28,13 +19,7 @@ Compute a Shared Harmonic Interval Profile (SHIP) from multiple chord labels:
 
 ```python 
 >>> chord_labels = ['G:min', 'Eb:maj/3', 'G:min', 'Eb:maj/3', 'Eb:maj'] 
-```
-
-```python 
 >>> hips = np.array([hip.label_to_hip(c) for c in chord_labels]) 
-```
-
-```python 
 >>> hips 
 array([[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
         1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
