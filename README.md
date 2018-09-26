@@ -7,8 +7,11 @@ Python library for computing (shared) harmonic interval profiles from chord labe
 Compute a Harmonic Interval Profile (HIP) from a chord label:
 
 ``` import harmonicintervalprofile as hip ```
+
 ```>>> label_hip = hip.label_to_hip('Eb:maj/3')```
+
 ```>>> label_hip ```
+
 ``` array([0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
        1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
        0, 0]) 
@@ -17,8 +20,11 @@ Compute a Harmonic Interval Profile (HIP) from a chord label:
 Compute a Shared Harmonic Interval Profile (SHIP) from multiple chord labels:
 
 ``` >>> chord_labels = ['G:min', 'Eb:maj/3', 'G:min', 'Eb:maj/3', 'Eb:maj'] ```
+
 ``` >>> hips = np.array([hip.label_to_hip(c) for c in chord_labels]) ```
+
 ``` >>> hips ```
+
 ```array([[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
         1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0],
@@ -38,6 +44,7 @@ Compute a Shared Harmonic Interval Profile (SHIP) from multiple chord labels:
 A SHIP is the average of multiple HIPs:
 
 ``` >>> ship(hips) ```
+
 ``` array([0. , 0. , 0. , 0.6, 0. , 0. , 0. , 0.4, 0. , 0. , 0. , 0. , 0. ,
        0. , 0. , 0. , 1. , 0.6, 0.4, 0. , 0. , 0. , 1. , 1. , 0. , 0. ,
        0. , 0. , 1. , 0. , 0. , 0. , 1. , 0.6, 0. , 0. , 0. , 0.4, 0. ,
