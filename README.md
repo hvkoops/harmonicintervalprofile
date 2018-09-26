@@ -2,7 +2,7 @@
 
 Python library for computing (shared) harmonic interval profiles (HIP and SHIP) from chord labels.
 
-*Note*: This library is functional, but in its infancy. 
+**Note**: This library is functional, but in its infancy. 
 
 The rationale behind the HIP is that most chords can be reduced to the root note and a set of intervals relative to the root, where the amount and combination of intervals determines the chord quality and possible extensions. The HIP captures this intuition by reducing a chord label to its root note, interval profile and bass note.
 
