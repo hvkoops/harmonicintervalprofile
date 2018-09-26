@@ -29,7 +29,7 @@ array([0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
        0, 0])
 ```
 
-Compute a Shared Harmonic Interval Profile (SHIP) from multiple chord labels:
+Compute Harmonic Interval Profile (HIPs) from multiple chord labels:
 
 ```python 
 >>> chord_labels = ['G:min', 'Eb:maj/3', 'G:min', 'Eb:maj/3', 'Eb:maj'] 
