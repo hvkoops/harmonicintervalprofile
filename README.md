@@ -2,7 +2,7 @@
 
 Python library for computing **(Shared) Harmonic Interval Profiles (HIP and SHIP)** features from chord labels.
 
-Several chord-label representations have been proposed in computational harmony research, of which chroma is most commonly used. This package contains methods to create and manipulate a new representation that captures a harmonic interval profile (HIP) of chord labels. We have shown in [[**research**]](https://rdcu.be/7sr2) that this representation can be effectively used to personalize chord labels.
+Several chord-label representations have been proposed in computational harmony research, of which chroma is most commonly used. This package contains methods to create and manipulate a new representation that captures a harmonic interval profile (HIP) of chord labels. We have shown in [[**research**]](https://rdcu.be/7sr2) that this representation can be effectively used to [[**personalize chord labels**]](https://github.com/hvkoops/chordlabelpersonalization).
 
 **Note**: This library is functional, but in its infancy. 
 
